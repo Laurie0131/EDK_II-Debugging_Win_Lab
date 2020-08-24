@@ -177,7 +177,7 @@ Note:
 <p style="line-height:85%"><span style="font-size:0.7em" >Locate the <font face="Consolas">UefiMain</font> function. Then copy and paste the following 
 code after the <span style="background-color: #101010">&nbsp;"<font face="Consolas">EFI_INPUT_KEY  KEY;</font>"</span> statement: and before the first <span style="background-color: #101010">&nbsp;<font face="Consolas">Print()</font> </span>statement </span></p>
 
-```c
+```c++
 DEBUG ((0xffffffff, "\n\nUEFI Base Training DEBUG DEMO\n") );
 DEBUG ((0xffffffff, "0xffffffff USING DEBUG ALL Mask Bits Set\n") );
 
@@ -440,7 +440,7 @@ SampleApp/SampleApp.inf {
 Lab 3 Changing Library
 
 
----?image=/assets/images/slides/Slide16.JPG
+---?image=/assets/images/slides/Slide13.JPG
 @title[Lab 3: Build, Run and Test Result]
 <p align="right"><span class="gold" ><b>Lab 3: Build, Run and Test Result</b></span></p>
 @snap[north-west span-50 ]
